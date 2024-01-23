@@ -10,8 +10,8 @@
     window.advisible = { publisherId, resourceRoot }
 
     loadScript('https://cdn.advisible.com/adk-1.18.1.js')
-    // loadScript('/setup.js?v=1')
-    loadScript(resourceRoot + '/setup.js?v=1')
+    loadScript('/setup.js?v=1')
+    // loadScript(resourceRoot + '/setup.js?v=1')
     // loadStyles(resourceRoot + '/style.css?v=1')
 
 })()
